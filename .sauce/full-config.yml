@@ -9,7 +9,8 @@ sauce:
     tags:
       - e2e
       - release team
-    build: $CI_COMMIT_SHORT_SHA
+    build: $BITRISE_BUILD_NUMBER
+
 espresso:
   app: $BITRISE_APK_PATH
   testApp: $BITRISE_TEST_APK_PATH
