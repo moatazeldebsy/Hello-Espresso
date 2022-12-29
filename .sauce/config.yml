@@ -15,9 +15,9 @@ suites:
     platformVersions:
     - "12.0"
   devices:
-   - id: Google_Pixel_2_real_eu
-   - name: "Google Pixel.*"
-     platformVersion: "11"
+   - id: Samsung_Galaxy_S9_free
+   - name: "Samsung Galaxy S9"
+     platformVersion: "10"
 artifacts:
   download:
     match:
