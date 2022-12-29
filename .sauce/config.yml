@@ -9,7 +9,7 @@ espresso:
   app: $BITRISE_APK_PATH
   testApp: $BITRISE_TEST_APK_PATH
 suites:
-- name: espresso - Google Pixel .* - Android GoogleAPI Emulator
+- name: Espresso Android UI tests
   emulators:
   - name: Android GoogleAPI Emulator
     platformVersions:
