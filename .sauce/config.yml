@@ -17,7 +17,7 @@ suites:
   devices:
    - id: Google_Pixel_2_real_eu
    - name: "Google Pixel.*"
-     platformVersion: "8.1"
+     platformVersion: "11"
 artifacts:
   download:
     match:
