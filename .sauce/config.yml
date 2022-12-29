@@ -15,9 +15,9 @@ suites:
     platformVersions:
     - "12.0"
   devices:
-    - id: LG_Q6_real_us
-    - name: "Samsung.*"
-      platformVersion: "8.0.0"
+   - id: Google_Pixel_2_real_us
+   - name: "Google Pixel.*"
+     platformVersion: "8.1"
 artifacts:
   download:
     match:
